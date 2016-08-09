@@ -1,0 +1,19 @@
+plugins:
+  twitter_enabled:
+    default: false
+    client: false
+  twitter_consumer_key:
+    default: ""
+    client: false
+  twitter_consumer_secret:
+    default: ""
+    client: false
+  twitter_access_token:
+    default: ""
+    client: false
+  twitter_access_secret:
+    default: ""
+    client: false
+  twitter_category:
+    default: ""
+    client: false
