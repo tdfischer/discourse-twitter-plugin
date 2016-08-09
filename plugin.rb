@@ -3,11 +3,8 @@
 # version: 0.0.1
 # authors: Victoria Fierce <tdfischer@hackerbots.net>
 
+gem 'twitter','5.16.0'
 enabled_site_setting :twitter_enabled
-
-require 'json'
-require 'net/http'
-require 'twitter'
 
 DiscourseEvent.on(:topic_created) do |topic|
   if SiteSetting.twitter_enabled
